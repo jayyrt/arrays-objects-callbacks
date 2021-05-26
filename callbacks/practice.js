@@ -28,8 +28,15 @@
 */
 
 // Code Here 
+function first(arr, cb) {
+ for (var i = 0; i < array.length; i++) {
+ first[i] = callback(arr[0]);
+}
+ return first
+}
 
 // Do not edit the code below.
+
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
 first(names, function(firstName){
@@ -48,6 +55,11 @@ first(names, function(firstName){
 */
 
 //Code Here
+function last(arr, cb) {
+  for (var i = 0; i < names.length; i++) {
+  last[i] = callback(arr[6])
+  }
+}
 
 // Do not edit the code below.
 last(names, function(lastName){
@@ -67,6 +79,13 @@ last(names, function(lastName){
 
 //Code Here
 
+function multiply(num1, num2, cb){
+  for(var i = 0; i < array.length; i++){
+  multiply[i] = callback(num1 * num2);
+  return multiply;
+  }
+}
+
 // Do not edit the code below.
 multiply(4, 3, function(answer){
   console.log('The answer is ' + answer); //should console.log 12
@@ -85,6 +104,10 @@ multiply(4, 3, function(answer){
 */
 
 //Code Here 
+function contains(arr, name, cb){
+
+
+}
 
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
