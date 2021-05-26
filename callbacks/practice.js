@@ -66,7 +66,7 @@ last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
   return lastName;
 });
-// Do not edit the code above.
+//  Do not edit the code above.
 
 
 
@@ -103,10 +103,13 @@ multiply(4, 3, function(answer){
   If the name does not exist, invoke the callback with false as the argument.
 */
 
-//Code Here 
+ //Code Here 
 function contains(arr, name, cb){
-
-
+  if (name === name){
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 }
 
 // Do not edit the code below.
@@ -130,6 +133,11 @@ contains(names, 'Colt', function(result){
 
 //Code Here
 
+function uniq(names, cb){
+ duplicateNames.slice(0, 2);
+}
+console.log(uniq)
+
 // Do not edit the code below.
 uniq(names, function(uniqArr){
   console.log('The new names array with all the duplicate items removed is ', uniqArr);
@@ -146,6 +154,10 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
+
+function each(names, cb){
+for (i = 0; )
+}
 
 // Do not edit the code below.
 each(names, function(item, indice){
