@@ -16,6 +16,13 @@
 
 //Code here
 
+var me = {
+  name: 'Kenia',
+  age: 28,
+}
+
+console.log(me.name)
+
 ////////// PROBLEM 2 //////////
 
 /*
@@ -25,6 +32,17 @@
 
 //Code here
 
+var favoriteThings = {
+  band: 'Imagine Dragons',
+  food: 'Enchiladas',
+  person: 'Adrian',
+  book: 'Virus of the Mind',
+  movie: 'Perks of Being A Wallflower',
+  holiday: 'Halloween',
+}
+
+console.log(favoriteThings)
+
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
@@ -32,12 +50,26 @@
 
 //Code here
 
+//bracket notation
+
+favoriteThings['car'] = 'Audi'
+favoriteThings['brand'] = 'Vans'
+
+
+//dot notation
+
+favoriteThings.car = 'Audi'
+favoriteThings.brand = 'Vans'
+
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
+
+favoriteThings.splice(food, 1, 'Chicken Nuggets')
+favoriteThings.splice(book, 1, 'Harry Potter')
 
 ////////// PROBLEM 3 //////////
 
@@ -51,11 +83,20 @@
 
 //Code here
 
+var backPack = {
+  item: 'firstPocket',
+}
+
+backPack['firstPocket'] = 'chapstick'
+backPack.color = 'black'
+
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+
+console.log(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -85,6 +126,9 @@ var user2 = {
 */
 
 //Code Here
+
+user2.name.splice('Bryan G. Smith')
+user2.email.splice('bryan.smith@devmounta.in')
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////

@@ -156,7 +156,8 @@ uniq(names, function(uniqArr){
 //Code Here 
 
 function each(names, cb){
-for (i = 0; )
+for (i = 0; names.length; i++);
+
 }
 
 // Do not edit the code below.
